@@ -1,6 +1,6 @@
 {
    "ext": "*.*",
-   "exec": "rm -r dist & swc src -d dist && cp manifest.json dist -r",
+   "exec": "swc src -d dist --delete-dir-on-start",
    "ignore": [
       "dist",
       ".git/**",
