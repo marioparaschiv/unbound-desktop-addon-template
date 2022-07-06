@@ -3,9 +3,13 @@
    "version": "1.0.0",
    "description": "Plugin template for unbound.",
    "main": "index.js",
+   "author": "eternal <eternal.git@gmail.com> (https://github.com/localip)",
+   "license": "Unlicensed",
    "scripts": {
       "build": "swc src -d dist --delete-dir-on-start"
    },
-   "author": "eternal <eternal.git@gmail.com> (https://github.com/localip)",
-   "license": "Unlicensed"
+   "devDependencies": {
+      "@swc/cli": "^0.1.57",
+      "@swc/core": "^1.2.210"
+   }
 }
