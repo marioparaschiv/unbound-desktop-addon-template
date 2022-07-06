@@ -1,0 +1,11 @@
+{
+   "name": "plugin-template",
+   "version": "1.0.0",
+   "description": "Plugin template for unbound.",
+   "main": "index.js",
+   "scripts": {
+      "build": "swc src -d dist --delete-dir-on-start"
+   },
+   "author": "eternal <eternal.git@gmail.com> (https://github.com/localip)",
+   "license": "Unlicensed"
+}

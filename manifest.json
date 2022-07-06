@@ -1,0 +1,14 @@
+{
+   "name": "Example Plugin",
+   "description": "Example plugin.",
+   "version": "1.0.0",
+   "authors": [
+      {
+         "name": "eternal",
+         "id": "263689920210534400"
+      }
+   ],
+   "splash": "dist/splash",
+   "main": "dist/app",
+   "id": "eternal.example-plugin"
+}

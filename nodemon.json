@@ -1,0 +1,9 @@
+{
+   "ext": "*.*",
+   "exec": "rm -r dist & swc src -d dist && cp manifest.json dist -r",
+   "ignore": [
+      "dist",
+      ".git/**",
+      "node_modules/**"
+   ]
+}
