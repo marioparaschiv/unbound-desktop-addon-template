@@ -1,6 +1,6 @@
 {
    "ext": "*.*",
-   "exec": "swc src -d dist --delete-dir-on-start",
+   "exec": "swc src -d dist -D --delete-dir-on-start",
    "ignore": [
       "dist",
       ".git/**",
