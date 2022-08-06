@@ -7,7 +7,7 @@
    "license": "Unlicensed",
    "scripts": {
       "build": "swc src -d dist -D --delete-dir-on-start",
-      "package": "rimraf packer && mkdir packer && cp -r manifest.json packer/manifest.json && rimraf node_modules & npm i --omit=dev && cp -r node_modules packer/node_modules && cp -r dist packer/dist && asar pack packer packed.asar && rimraf packer"
+      "package": "npm i && rimraf packer && mkdir packer && cp -r manifest.json packer/manifest.json && rimraf node_modules & npm i --omit=dev && cp -r node_modules packer/node_modules && cp -r dist packer/dist && asar pack packer packed.asar && npx rimraf packer"
    },
    "devDependencies": {
       "@swc/cli": "^0.1.57",
