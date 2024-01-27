@@ -1,19 +1,19 @@
 {
-   "name": "plugin-template",
-   "version": "1.0.0",
-   "description": "Plugin template for unbound.",
-   "main": "index.js",
-   "author": "eternal <eternal.git@gmail.com> (https://github.com/localip)",
-   "license": "Unlicensed",
-   "scripts": {
-      "build": "swc src -d dist -D --delete-dir-on-start",
-      "package": "npm i && rimraf packer && mkdir packer && cp -r manifest.json packer/manifest.json && rimraf node_modules & npm i --omit=dev && cp -r node_modules packer/node_modules && cp -r dist packer/dist && asar pack packer packed.asar && npx rimraf packer"
-   },
-   "devDependencies": {
-      "@swc/cli": "^0.1.57",
-      "@swc/core": "^1.2.210",
-      "asar": "^3.2.0",
-      "nodemon": "^2.0.19",
-      "rimraf": "^3.0.2"
-   }
+	"name": "plugin-template",
+	"version": "1.0.0",
+	"description": "Plugin template for unbound.",
+	"main": "index.js",
+	"author": "Mario <mariovparaschiv@gmail.com> (github.com/localip)",
+	"license": "Unlicensed",
+	"scripts": {
+		"build": "swc src -d dist -D --delete-dir-on-start",
+		"package": "npm i && rimraf packer && mkdir packer && cp -r manifest.json packer/manifest.json && rimraf node_modules & npm i --omit=dev && cp -r node_modules packer/node_modules && cp -r dist packer/dist && asar pack packer packed.asar && npx rimraf packer"
+	},
+	"devDependencies": {
+		"@swc/cli": "^0.1.57",
+		"@swc/core": "^1.2.210",
+		"asar": "^3.2.0",
+		"nodemon": "^2.0.19",
+		"rimraf": "^3.0.2"
+	}
 }
